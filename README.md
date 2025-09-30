@@ -83,3 +83,8 @@ Let’s start simple. Here’s the AST (Abstract Syntax Tree) of a factorial fun
 - MPNet produced the most meaningful similarity clusters.  
 
 ---
+
+## ⚡ How to Run
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/marrisrivanireddy/MileStone-1.git
