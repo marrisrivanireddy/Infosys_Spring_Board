@@ -63,7 +63,7 @@ Let’s start simple. Here’s the AST (Abstract Syntax Tree) of a factorial fun
 
 
 
-## 📈 Do the Models Agree?
+##  Do the Models Agree?
 | Comparison                 | Agreement |
 |-----------------------------|-----------|
 | MiniLM vs MPNet            | 0.16 (weak) |
