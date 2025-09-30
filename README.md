@@ -7,7 +7,7 @@ The task was to build a **Code Explainer pipeline** that can analyze Python code
 ---
 
 ## 📌 What This Project Does
-- Takes Python code snippets (I used 12 covering functions, classes, recursion, async, etc.).  
+- Takes Python code snippets (12 covering functions, classes, recursion, async, etc.).  
 - Breaks them down using **AST (Abstract Syntax Tree)**.  
 - Splits them into tokens using Python’s `tokenize` module.  
 - Sends them into three pretrained NLP models:  
@@ -15,19 +15,6 @@ The task was to build a **Code Explainer pipeline** that can analyze Python code
   - DistilRoBERTa  
   - MPNet  
 - Compares the outputs and visualizes them with heatmaps and PCA plots.  
-
----
-
-## 🔎 Example: AST Representation
-Let’s start simple. Here’s the AST (Abstract Syntax Tree) of a factorial function:
-
-### 📄 AST Text
-![AST Text](images/factorial_ast_text.png)  
-👉 This shows the code broken into a tree: function → condition → return → recursive call.  
-
-### 🌳 AST Tree
-![AST Graph](images/factorial_ast_graph.png)  
-👉 Easier to see visually: the function node connects to its `if` condition and recursive return.  
 
 ---
 
