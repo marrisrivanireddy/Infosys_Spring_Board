@@ -21,15 +21,15 @@ The task was to build a **Code Explainer pipeline** that can analyze Python code
 ## 🤖 Model Outputs — How Each Model Sees the Code
 
 ### 🔹 MiniLM Similarity Heatmap
-![MiniLM Heatmap](https://github.com/marrisrivanireddy/MileStone-1/blob/main/Milestone1/images/minilm_heatmap.png?raw=true)  
+![MiniLM Heatmap](https://github.com/marrisrivanireddy/MileStone-1/blob/main/images/minilm_heatmap.png?raw=true)  
 👉 MiniLM groups recursive and iterative functions closely. Pretty efficient!  
 
 ### 🔹 DistilRoBERTa Similarity Heatmap
-![DistilRoBERTa Heatmap](https://github.com/marrisrivanireddy/MileStone-1/blob/main/Milestone1/images/roberta_heatmap.png?raw=true)  
+![DistilRoBERTa Heatmap](https://github.com/marrisrivanireddy/MileStone-1/blob/main/images/roberta_heatmap.png?raw=true)  
 👉 DistilRoBERTa struggles more since it’s trained mostly on natural text, not code.  
 
 ### 🔹 MPNet Similarity Heatmap
-![MPNet Heatmap](https://github.com/marrisrivanireddy/MileStone-1/blob/main/Milestone1/images/mpnet_heatmap.png?raw=true)  
+![MPNet Heatmap](https://github.com/marrisrivanireddy/MileStone-1/blob/main/images/mpnet_heatmap.png?raw=true)  
 👉 MPNet does the best job — it clusters similar algorithms together nicely.  
 
 ---
@@ -37,15 +37,15 @@ The task was to build a **Code Explainer pipeline** that can analyze Python code
 ### 📊 PCA Plots (2D View of Embeddings)
 
 - **MiniLM PCA**  
-  ![MiniLM PCA](https://github.com/marrisrivanireddy/MileStone-1/blob/main/Milestone1/images/minilm_pca.png?raw=true)  
+  ![MiniLM PCA](https://github.com/marrisrivanireddy/MileStone-1/blob/main/images/minilm_pca.png?raw=true)  
   👉 You can see math-related snippets sitting close to each other.  
 
 - **DistilRoBERTa PCA**  
-  ![DistilRoBERTa PCA](https://github.com/marrisrivanireddy/MileStone-1/blob/main/Milestone1/images/roberta_pca.png?raw=true)  
+  ![DistilRoBERTa PCA](https://github.com/marrisrivanireddy/MileStone-1/blob/main/images/roberta_pca.png?raw=true)  
   👉 The points are scattered, meaning it doesn’t see code similarity very well.  
 
 - **MPNet PCA**  
-  ![MPNet PCA](https://github.com/marrisrivanireddy/MileStone-1/blob/main/Milestone1/images/mpnet_pca.png?raw=true)  
+  ![MPNet PCA](https://github.com/marrisrivanireddy/MileStone-1/blob/main/images/mpnet_pca.png?raw=true)  
   👉 The cleanest clusters — MPNet clearly “understands” code patterns better.  
 
 ---
