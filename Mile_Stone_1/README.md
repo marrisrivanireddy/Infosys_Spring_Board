@@ -80,7 +80,7 @@ Each snippet is stored as a .py file inside the snippets/ folder.
 ---
 
 
-### 🧠 Step 3: Model Encoding and Explanation
+###  Step 3: Model Encoding and Explanation
 
 Each snippet is encoded using the following pretrained embedding models:
 
@@ -100,6 +100,32 @@ Each model produces a **dense vector embedding** — a numerical representation 
   <img src="./encode%20ss.png" alt="Encoding Process Visualization" width="600"/>
 </p>
 
+### 🧠 Model Encoding Outputs
+
+Below are the individual outputs from each pretrained embedding model:
+
+---
+
+#### 🧩 MiniLM Output
+<p align="center">
+  <img src="./minilm%20output.png" alt="MiniLM Model Output" width="600"/>
+</p>
+
+---
+
+#### 🧩 DistilRoBERTa Output
+<p align="center">
+  <img src="./distil%20roberta%20output.png" alt="DistilRoBERTa Model Output" width="600"/>
+</p>
+
+---
+
+#### 🧩 MPNet Output
+<p align="center">
+  <img src="./mpnet%20output.png" alt="MPNet Model Output" width="600"/>
+</p>
+
+
 We then compute **cosine similarity** between code embeddings and conceptual labels such as:
 
 `"code structure"`, `"algorithmic logic"`, `"data handling"`, `"control flow"`
@@ -113,6 +139,8 @@ This process allows us to understand **how each model interprets code semantics*
 </p>
 
 ---
+
+
 
 **Interpretive Outputs:**
 
