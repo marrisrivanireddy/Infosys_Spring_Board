@@ -152,6 +152,56 @@ This process allows us to understand **how each model interprets code semantics*
 
 ---
 
+---
+
+### 🧩 Step 5: Comparative Analysis of Models
+
+#### 🔍 Difference Between MiniLM, DistilRoBERTa, and MPNet
+
+Each of the three embedding models interprets source code differently based on its training objectives and architecture.
+
+| **Model** | **Primary Focus** | **Strengths** | **Limitations** |
+|------------|------------------|----------------|-----------------|
+| **MiniLM** | Structural and logical understanding | Captures recursion, loops, and control flow efficiently; compact and fast | Slightly weaker in documentation or contextual understanding |
+| **DistilRoBERTa** | Contextual and semantic comprehension | Excellent at understanding relationships, control statements, and inline comments | Misses deeper algorithmic or mathematical patterns |
+| **MPNet** | Deep semantic and positional reasoning | Strong in identifying class-based design, data flow, and object relationships | Computationally heavier and slower in inference compared to MiniLM |
+
+**Interpretation:**  
+- **MiniLM** is ideal for detecting *algorithmic logic* and *recursion patterns*.  
+- **DistilRoBERTa** is better at capturing *meaning from function documentation* and *control flow*.  
+- **MPNet** provides the best *overall structural and contextual balance* due to its hybrid masked-permutation learning.
+
+---
+
+### 🤖 Step 6: Embedding Models vs Real LLMs (e.g., GPT-4 / GPT-5)
+
+Embedding models like **MiniLM**, **DistilRoBERTa**, and **MPNet** are optimized for **representation learning**,  
+while **Large Language Models (LLMs)** such as **GPT-4** or **GPT-5** are designed for **understanding *and* generation**.
+
+| **Aspect** | **Embedding Models (MiniLM, DistilRoBERTa, MPNet)** | **Large Language Models (GPT-4, GPT-5)** |
+|-------------|----------------------------------------------------|------------------------------------------|
+| **Primary Purpose** | Represent meaning numerically (embeddings) | Understand, reason, and generate human-like responses |
+| **Output Type** | Dense numeric vectors (e.g., 768-dimensional) | Natural language text, code, or reasoning steps |
+| **Use Case** | Similarity search, clustering, semantic comparison | Code explanation, debugging, reasoning, generation |
+| **Training Goal** | Maximize semantic similarity accuracy | Predict next token / perform multi-task reasoning |
+| **Interpretation Ability** | Detects what code is *about* | Explains *why* and *how* code works |
+| **Example Output** | “Focus: algorithmic logic (0.91)” | “This function recursively computes the factorial of a number.” |
+
+---
+
+
+
+- **Embedding Models** → Compact, fast, and specialized for *semantic similarity and comparison tasks*.  
+  They help quantify how code snippets relate conceptually.  
+
+- **LLMs (GPT-4 / GPT-5)** → Perform both *understanding and reasoning*.  
+  They not only recognize code semantics but can also **explain, refactor, and generate new code**.  
+
+Together, they represent **two complementary layers** of AI understanding:
+- **Embeddings = Representation of meaning**
+- **LLMs = Expression of understanding**
+
+---
 
 
 
