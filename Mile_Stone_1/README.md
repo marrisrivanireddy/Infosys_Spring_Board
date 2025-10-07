@@ -73,16 +73,30 @@ Each snippet is stored as a .py file inside the snippets/ folder.
 
 **Step 2: AST Parsing and Tokenization**
 
-Each code snippet is parsed using Python’s ast module to extract:
 
-Function and class definitions
+Module
+ └── FunctionDef(name='factorial')
+      ├── arguments: (n)
+      └── body
+           ├── If(test=Compare(left=Name(id='n'), ops=[Eq()], comparators=[Constant(value=0)]))
+           │     └── body
+           │          └── Return(value=Constant(value=1))
+           └── orelse
+                 └── Return(
+                        value=BinOp(
+                            left=Name(id='n'),
+                            op=Mult(),
+                            right=Call(
+                                func=Name(id='factorial'),
+                                args=[BinOp(
+                                    left=Name(id='n'),
+                                    op=Sub(),
+                                    right=Constant(value=1)
+                                )]
+                            )
+                        )
+                     )
 
-Imports and logical patterns
-
-Code features like recursion, decorators, async, etc.
-
-Then, we use pretrained tokenizers from each model to tokenize the snippets.
-This allows models to “read” the code structure in token form.
 
 Example Output:
 
