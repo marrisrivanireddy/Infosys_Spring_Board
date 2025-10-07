@@ -26,6 +26,18 @@ We aim to understand how different transformer-based models interpret and repres
 > They only **understand semantics** and represent meaning as embeddings (numerical vectors) used for similarity comparison.
 
 ---
+## 🔄 Workflow Overview
+
+| Step | Process | Description |
+|------|----------|--------------|
+| 1️⃣ | **Code Snippets** | Collection of Python programs representing various logic types |
+| 2️⃣ | **AST Parsing** | Extract structure, logic, functions, classes, and imports |
+| 3️⃣ | **Tokenization** | Convert code into tokens readable by transformer models |
+| 4️⃣ | **Encoding** | Generate dense vector embeddings using MiniLM, DistilRoBERTa, and MPNet |
+| 5️⃣ | **Explanation** | Identify conceptual focus (structure, data, logic, etc.) |
+| 6️⃣ | **Comparison** | Compare embeddings and similarity across models |
+| 7️⃣ | **Visualization** | Generate heatmaps, bar charts, and word clouds |
+
 ## Flow of the Process
 CODE SNIPPETS
      ↓
