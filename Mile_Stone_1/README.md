@@ -78,12 +78,9 @@ Each snippet is stored as a .py file inside the snippets/ folder.
 </p>
 
 ---
-
-
-
-
-
-
+<p align="center">
+  <img src="./output%20ss.png" alt="Example Output Visualization" width="600"/>
+</p>
 
 ** Step 3: Model Encoding and Explanation**
 
