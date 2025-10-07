@@ -142,7 +142,7 @@ This process allows us to understand **how each model interprets code semantics*
 
 
 
-**Interpretive Outputs:**
+**Model focusing points**
 
 | Model | Focus Areas |
 |--------|--------------|
@@ -152,65 +152,7 @@ This process allows us to understand **how each model interprets code semantics*
 
 ---
 
-🧩 **Interpretation:**
-These embeddings show how each model perceives the same code snippet differently:  
-- **MiniLM** emphasizes *structure and logic*  
-- **DistilRoBERTa** focuses on *documentation and control flow*  
-- **MPNet** captures *data handling and object-oriented concepts*
 
-Together, they reveal that each model understands the code’s **semantics** from unique perspectives.
-
-
-
- **Step 4: Model Comparison and Visualization**
-
-Once we have the model outputs, we perform:
-
-TF-IDF Vectorization – builds a shared vocabulary of all outputs
-
-Cosine Similarity – measures overlap between model focus areas
-
-Dominant Model Identification – finds which model best aligns per snippet
-
-Visualization – generates:
- Heatmaps showing inter-model similarity
- Bar charts for best model per snippet
- Word clouds for key focus terms
-
- Example Results
-Snippet	MiniLM	DistilRoBERTa	MPNet	Best Model
-factorial	0.93	0.89	0.91	MiniLM
-fibonacci	0.91	0.88	0.89	MiniLM
-dataclass	0.87	0.85	0.90	MPNet
-stack class	0.86	0.91	0.89	DistilRoBERTa
- Overall Analysis
-
-After evaluating all 10 code snippets:
-
- MiniLM performs best for algorithmic and logic-driven code.
-
- MPNet excels at understanding structured, class-based snippets.
-
- DistilRoBERTa captures documentation and control flow semantics effectively.
-
-Each model exhibits unique focus areas, showing that even pretrained models interpret code differently.
-
- Extension: Real LLMs vs. Embedding Models
-Aspect	Embedding Models (MiniLM, MPNet, DistilRoBERTa)	Real LLMs (GPT-4, GPT-5)
-Purpose	Represent meaning numerically	Understand and generate text
-Output	Vector embeddings	Natural language explanation
-Functionality	Similarity, clustering, matching	Reasoning, explanation, summarization
-Example Output	“Focus: algorithmic logic (0.91)”	“This function recursively computes factorial.”
-
-Real LLMs combine semantic understanding + reasoning, allowing them to explain, debug, and refactor code — not just represent it.
-
- 
-Stage	Description	Output
-AST Parsing	Extracts structural and logical elements	Function, class, import metadata
-Tokenization	Converts code into token sequences	Tokens for each model
-Encoding	Embeds semantic meaning	Dense vector representation
-Explanation	Finds conceptual alignment	Model focus descriptions
-Comparison	Evaluates similarity across models	Similarity matrices
 
 
  **Conclusion**
