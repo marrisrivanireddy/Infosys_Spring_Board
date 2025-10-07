@@ -79,7 +79,7 @@ Each snippet is stored as a .py file inside the snippets/ folder.
 ---
 
 
-###  Step 3: Model Encoding and Explanation
+###  Step 3: Model Tokenization and Encoding
 
 Each snippet is encoded using the following pretrained embedding models:
 
