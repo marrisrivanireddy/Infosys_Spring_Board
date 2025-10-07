@@ -41,13 +41,6 @@ COMPARISON → Analyze which model best understands each snippet
      ↓
 VISUALIZATION → Heatmaps, bar charts, and word clouds
 
-## Example Code Snippet
-
-```python
-def factorial(n):
-    if n <= 1:
-        return 1
-    return n * factorial(n - 1)
 
 ## **Step 1: Create Code Snippets**
 
