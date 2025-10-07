@@ -80,14 +80,7 @@ Module ──▶ FunctionDef(name='factorial') ──▶ arguments: (n) ──�
 
 ---
 
-**Example Output:**
-```json
-{ 
-  "functions": ["factorial"], 
-  "patterns": ["recursion"], 
-  "imports": [], 
-  "classes": [] 
-}
+
 
 
 ** Step 3: Model Encoding and Explanation**
