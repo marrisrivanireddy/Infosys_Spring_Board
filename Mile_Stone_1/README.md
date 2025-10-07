@@ -100,32 +100,32 @@ Each model produces a **dense vector embedding** — a numerical representation 
   <img src="./encode%20ss.png" alt="Encoding Process Visualization" width="600"/>
 </p>
 
-### 🧠 Model Encoding Outputs
+###  Model Encoding Outputs
 
 Below are the individual outputs from each pretrained embedding model:
 
 ---
 
-#### 🧩 MiniLM Output
+####  MiniLM Output
 <p align="center">
   <img src="./minilm%20output.png" alt="MiniLM Model Output" width="600"/>
 </p>
 
 ---
 
-#### 🧩 DistilRoBERTa Output
+####  DistilRoBERTa Output
 <p align="center">
   <img src="./distil%20roberta%20output.png" alt="DistilRoBERTa Model Output" width="600"/>
 </p>
 
 ---
 
-#### 🧩 MPNet Output
+####  MPNet Output
 <p align="center">
   <img src="./mpnet%20output.png" alt="MPNet Model Output" width="600"/>
 </p>
 
-## ** Comparison**
+##  Comparison
 We then compute **cosine similarity** between code embeddings and conceptual labels such as:
 
 `"code structure"`, `"algorithmic logic"`, `"data handling"`, `"control flow"`
@@ -154,9 +154,9 @@ This process allows us to understand **how each model interprets code semantics*
 
 ---
 
-### 🧩 Step 5: Comparative Analysis of Models
+###  Step 5: Comparative Analysis of Models
 
-#### 🔍 Difference Between MiniLM, DistilRoBERTa, and MPNet
+####  Difference Between MiniLM, DistilRoBERTa, and MPNet
 
 Each of the three embedding models interprets source code differently based on its training objectives and architecture.
 
@@ -173,7 +173,7 @@ Each of the three embedding models interprets source code differently based on i
 
 ---
 
-### 🤖 Step 6: Embedding Models vs Real LLMs (e.g., GPT-4 / GPT-5)
+###  Step 6: Embedding Models vs Real LLMs (e.g., GPT-4 / GPT-5)
 
 Embedding models like **MiniLM**, **DistilRoBERTa**, and **MPNet** are optimized for **representation learning**,  
 while **Large Language Models (LLMs)** such as **GPT-4** or **GPT-5** are designed for **understanding *and* generation**.
