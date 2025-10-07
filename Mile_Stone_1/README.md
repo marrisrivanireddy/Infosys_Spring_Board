@@ -79,6 +79,16 @@ Each snippet is stored as a .py file inside the snippets/ folder.
 
 ---
 
+
+### 🧠 Step 3: Model Encoding and Explanation
+
+Each snippet is encoded using the following pretrained embedding models:
+
+- **MiniLM**  
+- **DistilRoBERTa**  
+- **MPNet**
+
+Each model produces a **dense vector embedding** — a numerical representation of meaning.
 ###  Tokenization
 <p align="center">
   <img src="./ss3.png" alt="Tokenization Process Visualization" width="600"/>
@@ -90,16 +100,6 @@ Each snippet is stored as a .py file inside the snippets/ folder.
   <img src="./encode%20ss.png" alt="Encoding Process Visualization" width="600"/>
 </p>
 
-
-### 🧠 Step 3: Model Encoding and Explanation
-
-Each snippet is encoded using the following pretrained embedding models:
-
-- **MiniLM**  
-- **DistilRoBERTa**  
-- **MPNet**
-
-Each model produces a **dense vector embedding** — a numerical representation of meaning.  
 We then compute **cosine similarity** between code embeddings and conceptual labels such as:
 
 `"code structure"`, `"algorithmic logic"`, `"data handling"`, `"control flow"`
@@ -133,29 +133,6 @@ These embeddings show how each model perceives the same code snippet differently
 Together, they reveal that each model understands the code’s **semantics** from unique perspectives.
 
 
-** Step 3: Model Encoding and Explanation**
-
-Each snippet is encoded using the following pretrained embedding models:
-
-MiniLM
-
-DistilRoBERTa
-
-MPNet
-
-Each model produces a dense vector embedding — a numerical representation of meaning.
-We then compute cosine similarity between code embeddings and conceptual labels such as:
-
-"code structure", "algorithmic logic", "data handling", "control flow"
-
-This yields interpretive outputs like:
-
-MiniLM focuses on: code structure (0.23), algorithmic logic (0.21), function documentation (0.19)
-DistilRoBERTa focuses on: function documentation (0.25), control flow (0.20)
-MPNet focuses on: data handling (0.27), object-oriented design (0.22)
-
-
-These describe how each model perceives the snippet semantically.
 
  **Step 4: Model Comparison and Visualization**
 
