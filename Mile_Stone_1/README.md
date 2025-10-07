@@ -49,7 +49,7 @@ def factorial(n):
         return 1
     return n * factorial(n - 1)
 
-tep 1: Create Code Snippets
+## **Step 1: Create Code Snippets**
 
 We generate 10 Python snippets covering a variety of programming constructs:
 
@@ -75,7 +75,7 @@ List comprehensions
 
 Each snippet is stored as a .py file inside the snippets/ folder.
 
-Step 2: AST Parsing and Tokenization
+**Step 2: AST Parsing and Tokenization**
 
 Each code snippet is parsed using Python’s ast module to extract:
 
@@ -97,7 +97,7 @@ Example Output:
   "classes": []
 }
 
- Step 3: Model Encoding and Explanation
+** Step 3: Model Encoding and Explanation**
 
 Each snippet is encoded using the following pretrained embedding models:
 
@@ -121,7 +121,7 @@ MPNet focuses on: data handling (0.27), object-oriented design (0.22)
 
 These describe how each model perceives the snippet semantically.
 
- Step 4: Model Comparison and Visualization
+ **Step 4: Model Comparison and Visualization**
 
 Once we have the model outputs, we perform:
 
@@ -172,16 +172,15 @@ Explanation	Finds conceptual alignment	Model focus descriptions
 Comparison	Evaluates similarity across models	Similarity matrices
 
 
- Conclusion
+ **Conclusion**
 
 This milestone demonstrates how transformer-based models can analyze and understand code semantics.
 By comparing embeddings and similarities, we reveal how different models focus on structure, logic, or documentation.
 
 This project bridges static code analysis and natural language understanding, paving the way for AI-assisted programming tools that combine deep learning, reasoning, and interpretability.
 
-✨ Author
-
-👩‍💻 Marris Srivani Reddy
+ **Author**
+Marris Srivani Reddy
 B.Tech – Computer Science (AI & ML Aligned Branch)
 Passionate about Software Development, Artificial Intelligence, and Data Science.
 
