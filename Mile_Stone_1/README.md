@@ -76,7 +76,11 @@ Each snippet is stored as a .py file inside the snippets/ folder.
 
 ### 🧩 Step 2: AST Parsing and Tokenization
 
-Module ──▶ FunctionDef(name='factorial') ──▶ arguments: (n) ──▶ body ──▶ If(test=Compare(left=Name(id='n'), ops=[Eq()], comparators=[Constant(value=0)])) ──▶ body ──▶ Return(value=Constant(value=1)) ──▶ orelse ──▶ Return(value=BinOp(left=Name(id='n'), op=Mult(), right=Call(func=Name(id='factorial'), args=[BinOp(left=Name(id='n'), op=Sub(), right=Constant(value=1))])))
+Here’s how the Abstract Syntax Tree (AST) looks for the factorial function:
+
+<p align="center">
+  <img src="images/ast_tree.png" alt="AST Tree Visualization" width="600"/>
+</p>
 
 ---
 
@@ -88,6 +92,7 @@ Module ──▶ FunctionDef(name='factorial') ──▶ arguments: (n) ──�
   "imports": [],
   "classes": []
 }
+
 
 
 
