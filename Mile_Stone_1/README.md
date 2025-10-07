@@ -83,6 +83,48 @@ Each snippet is stored as a .py file inside the snippets/ folder.
   <img src="./output%20ss.png" alt="Example Output Visualization" width="600"/>
 </p>
 
+### 🧠 Step 3: Model Encoding and Explanation
+
+Each snippet is encoded using the following pretrained embedding models:
+
+- **MiniLM**  
+- **DistilRoBERTa**  
+- **MPNet**
+
+Each model produces a **dense vector embedding** — a numerical representation of meaning.  
+We then compute **cosine similarity** between code embeddings and conceptual labels such as:
+
+`"code structure"`, `"algorithmic logic"`, `"data handling"`, `"control flow"`
+
+This process allows us to understand **how each model interprets code semantics**.
+
+---
+
+<p align="center">
+  <img src="./output%20ss.png" alt="Model Encoding Visualization" width="600"/>
+</p>
+
+---
+
+**Interpretive Outputs:**
+
+| Model | Focus Areas |
+|--------|--------------|
+| **MiniLM** | Code structure (0.23), Algorithmic logic (0.21), Function documentation (0.19) |
+| **DistilRoBERTa** | Function documentation (0.25), Control flow (0.20) |
+| **MPNet** | Data handling (0.27), Object-oriented design (0.22) |
+
+---
+
+🧩 **Interpretation:**
+These embeddings show how each model perceives the same code snippet differently:  
+- **MiniLM** emphasizes *structure and logic*  
+- **DistilRoBERTa** focuses on *documentation and control flow*  
+- **MPNet** captures *data handling and object-oriented concepts*
+
+Together, they reveal that each model understands the code’s **semantics** from unique perspectives.
+
+
 ** Step 3: Model Encoding and Explanation**
 
 Each snippet is encoded using the following pretrained embedding models:
