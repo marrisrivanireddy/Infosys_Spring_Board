@@ -37,6 +37,17 @@ We aim to understand how different transformer-based models interpret and repres
 | 5️⃣ | **Explanation** | Identify conceptual focus (structure, data, logic, etc.) |
 | 6️⃣ | **Comparison** | Compare embeddings and similarity across models |
 | 7️⃣ | **Visualization** | Generate heatmaps, bar charts, and word clouds |
+## 🔄 Workflow Overview
+
+```mermaid
+flowchart TD
+    A[🧩 Code Snippets] --> B[🧠 AST Parsing<br>Extract structure, patterns, and logic]
+    B --> C[🔤 Tokenization<br>Convert into model-readable tokens]
+    C --> D[💾 Encoding<br>Generate embeddings using MiniLM, DistilRoBERTa, MPNet]
+    D --> E[🧮 Explanation<br>Identify conceptual focus using semantic similarity]
+    E --> F[⚖️ Comparison<br>Evaluate similarity between models]
+    F --> G[📊 Visualization<br>Generate heatmaps, bar charts, and word clouds]
+
 
 ## Flow of the Process
 CODE SNIPPETS
