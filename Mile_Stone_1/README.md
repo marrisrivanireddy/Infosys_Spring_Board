@@ -74,38 +74,21 @@ Each snippet is stored as a .py file inside the snippets/ folder.
 **Step 2: AST Parsing and Tokenization**
 
 
-Module
- └── FunctionDef(name='factorial')
-      ├── arguments: (n)
-      └── body
-           ├── If(test=Compare(left=Name(id='n'), ops=[Eq()], comparators=[Constant(value=0)]))
-           │     └── body
-           │          └── Return(value=Constant(value=1))
-           └── orelse
-                 └── Return(
-                        value=BinOp(
-                            left=Name(id='n'),
-                            op=Mult(),
-                            right=Call(
-                                func=Name(id='factorial'),
-                                args=[BinOp(
-                                    left=Name(id='n'),
-                                    op=Sub(),
-                                    right=Constant(value=1)
-                                )]
-                            )
-                        )
-                     )
+### 🧩 Step 2: AST Parsing and Tokenization
 
+Module ──▶ FunctionDef(name='factorial') ──▶ arguments: (n) ──▶ body ──▶ If(test=Compare(left=Name(id='n'), ops=[Eq()], comparators=[Constant(value=0)])) ──▶ body ──▶ Return(value=Constant(value=1)) ──▶ orelse ──▶ Return(value=BinOp(left=Name(id='n'), op=Mult(), right=Call(func=Name(id='factorial'), args=[BinOp(left=Name(id='n'), op=Sub(), right=Constant(value=1))])))
 
-Example Output:
+---
 
-{
-  "functions": ["factorial"],
-  "patterns": ["recursion"],
-  "imports": [],
-  "classes": []
+**Example Output:**
+```json
+{ 
+  "functions": ["factorial"], 
+  "patterns": ["recursion"], 
+  "imports": [], 
+  "classes": [] 
 }
+
 
 ** Step 3: Model Encoding and Explanation**
 
