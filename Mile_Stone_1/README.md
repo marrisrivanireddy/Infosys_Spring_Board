@@ -75,11 +75,8 @@ Each snippet is stored as a .py file inside the snippets/ folder.
 
 
 ### 🧩 Step 2: AST Parsing and Tokenization
-
-Here’s how the Abstract Syntax Tree (AST) looks for the factorial function:
-
 <p align="center">
-  <img src="images/ast_tree.png" alt="AST Tree Visualization" width="600"/>
+  <img src="./tree%20ss.png" alt="AST Tree Visualization" width="600"/>
 </p>
 
 ---
