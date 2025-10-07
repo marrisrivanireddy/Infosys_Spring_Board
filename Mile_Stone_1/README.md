@@ -71,24 +71,15 @@ List comprehensions
 
 Each snippet is stored as a .py file inside the snippets/ folder.
 
-**Step 2: AST Parsing and Tokenization**
 
-
-### 🧩 Step 2: AST Parsing and Tokenization
+###  Step 2: AST Parsing and Tokenization
 <p align="center">
   <img src="./tree%20ss.png" alt="AST Tree Visualization" width="600"/>
 </p>
 
 ---
 
-**Example Output:**
-```json
-{
-  "functions": ["factorial"],
-  "patterns": ["recursion"],
-  "imports": [],
-  "classes": []
-}
+
 
 
 
