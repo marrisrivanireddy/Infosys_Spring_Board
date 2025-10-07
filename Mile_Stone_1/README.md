@@ -81,8 +81,9 @@ Each snippet is stored as a .py file inside the snippets/ folder.
 
 ###  Tokenization
 <p align="center">
-  <img src="./ss3%20ss.png" alt="Tokenization Process Visualization" width="600"/>
+  <img src="./ss3.png" alt="Tokenization Process Visualization" width="600"/>
 </p>
+
 
 ###  Ecoding the Tokenized code
 <p align="center">
