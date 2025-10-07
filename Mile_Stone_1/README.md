@@ -125,20 +125,20 @@ Below are the individual outputs from each pretrained embedding model:
   <img src="./mpnet%20output.png" alt="MPNet Model Output" width="600"/>
 </p>
 
-
+## ** Comparison**
 We then compute **cosine similarity** between code embeddings and conceptual labels such as:
 
 `"code structure"`, `"algorithmic logic"`, `"data handling"`, `"control flow"`
 
 This process allows us to understand **how each model interprets code semantics**.
 
----
+| **Snippet** | **MiniLM** | **DistilRoBERTa** | **MPNet** | **Best Model** |
+|--------------|-------------|--------------------|------------|----------------|
+| factorial | 0.93 | 0.89 | 0.91 | **MiniLM** |
+| fibonacci | 0.91 | 0.88 | 0.89 | **MiniLM** |
+| dataclass | 0.87 | 0.85 | 0.90 | **MPNet** |
+| stack class | 0.86 | 0.91 | 0.89 | **DistilRoBERTa** |
 
-<p align="center">
-  <img src="./output%20ss.png" alt="Model Encoding Visualization" width="600"/>
-</p>
-
----
 
 
 
