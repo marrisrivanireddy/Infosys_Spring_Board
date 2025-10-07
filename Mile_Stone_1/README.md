@@ -1,4 +1,4 @@
-# Milestone 1 
+ 
 #  Milestone 1 – Code Understanding and Model Comparison
 
 ##  Problem Statement
@@ -43,7 +43,6 @@ COMPARISON → Analyze which model best understands each snippet
 ↓  
 VISUALIZATION → Heatmaps, bar charts, and word clouds
 
-## **Step By Step Interpretation**
 
 ## **Step 1: Create Code Snippets**
 
