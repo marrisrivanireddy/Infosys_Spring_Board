@@ -68,3 +68,14 @@ LAUNCHING THE UI
 
 ### Model Evaluation — Ranking Based on Performance
 <p align="center"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/comp.png" alt="Model Ranking Graph" width="90%" height="400px" style="object-fit: contain; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"> </p>
+
+### USER INTERFACE
+
+UI 1
+<p align="center"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/ui1.png" alt="UI 1" width="95%" height="250px" style="object-fit: cover; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);"> </p>
+UI 2
+<p align="center"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/ui2.png" alt="UI 2" width="95%" height="250px" style="object-fit: cover; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);"> </p>
+UI 3
+<p align="center"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/ui3.png" alt="UI 3" width="95%" height="250px" style="object-fit: cover; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);"> </p>
+UI 4
+<p align="center"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/ui4.png" alt="UI 4" width="95%" height="250px" style="object-fit: cover; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);"> </p>
