@@ -1,9 +1,9 @@
-# 🚀 Infosys CodeGenie AI — Milestone 2  
-### 💡 Code Generation and Model Comparison using Multiple LLMs
+#  Infosys CodeGenie AI — Milestone 2  
+###  Code Generation and Model Comparison using Multiple LLMs
 
 ---
 
-## 🧩 **Problem Statement**
+##  **Problem Statement**
 
 Develop an **AI-powered Code Generator and Explainer** capable of generating programming code from natural language prompts using multiple open-source language models.  
 
@@ -14,7 +14,7 @@ The system should:
 
 ---
 
-## 🧠 **Models Used**
+##  **Models Used**
 
 | # | Model | Hugging Face ID | Parameters | Description |
 |---|--------|----------------|-------------|--------------|
@@ -84,14 +84,14 @@ LAUNCHING THE UI
 <p align="center"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/ui4.png" alt="UI 4" width="95%" height="250px" style="object-fit: cover; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);"> </p>
 
 
-# 💻 CodeGenieAI — Model Comparison & Analysis (Milestone 2)
+#  CodeGenieAI — Model Comparison & Analysis (Milestone 2)
 
 This project is part of **Infosys CodeGenieAI (Milestone 2)**, focusing on **code generation and explanation** using multiple open-source models from Hugging Face.  
 The objective is to **evaluate**, **compare**, and **visualize** the performance of these models across various programming domains.
 
 ---
 
-## ⚙️ Models Evaluated
+##  Models Evaluated
 
 | Model Name | Developer | Parameters | Type | Key Strength |
 |-------------|------------|-------------|------|---------------|
@@ -103,7 +103,7 @@ The objective is to **evaluate**, **compare**, and **visualize** the performance
 
 ---
 
-## 🔍 Differences Between the Models
+##  Differences Between the Models
 
 | Aspect | DeepSeek-Coder | Phi-2 | Gemma-2B-IT | Stable-Code | Replit-Code |
 |:--|:--|:--|:--|:--|:--|
@@ -117,59 +117,59 @@ The objective is to **evaluate**, **compare**, and **visualize** the performance
 
 ---
 
-## ⚠️ Limitations of Each Model
+##  Limitations of Each Model
 
-### 🧩 DeepSeek-Coder (1.3B)
-- ❌ Limited reasoning for high-level algorithmic explanations  
-- ❌ May skip comments or docstrings  
-- ✅ Best for concise, clean code snippets  
-
----
-
-### 🧠 Phi-2 (2.7B)
-- ❌ Slower inference time  
-- ❌ Sometimes generates incomplete code blocks  
-- ✅ Excellent at combining natural language reasoning with coding logic  
+###  DeepSeek-Coder (1.3B)
+-  Limited reasoning for high-level algorithmic explanations  
+-  May skip comments or docstrings  
+-  Best for concise, clean code snippets  
 
 ---
 
-### 💡 Gemma-2B-IT
-- ❌ Slightly generic outputs for domain-specific prompts  
-- ✅ Consistent formatting and code quality  
-- ✅ Performs well in explainable code generation tasks  
+###  Phi-2 (2.7B)
+-  Slower inference time  
+-  Sometimes generates incomplete code blocks  
+-  Excellent at combining natural language reasoning with coding logic  
 
 ---
 
-### 🧮 Stable-Code (3B)
-- ❌ Requires more memory (GPU/RAM)  
-- ❌ May generate redundant lines in large scripts  
-- ✅ Excels at large function generation and contextual understanding  
+###  Gemma-2B-IT
+-  Slightly generic outputs for domain-specific prompts  
+-  Consistent formatting and code quality  
+-  Performs well in explainable code generation tasks  
 
 ---
 
-### 🧰 Replit-Code (3B)
-- ❌ Occasionally overfits to “web app” or “JS-like” syntax  
-- ❌ Produces slower completions  
-- ✅ Practical and realistic coding style suitable for deployment  
+###  Stable-Code (3B)
+-  Requires more memory (GPU/RAM)  
+-  May generate redundant lines in large scripts  
+-  Excels at large function generation and contextual understanding  
 
 ---
 
-## 🧾 Conclusion
+###  Replit-Code (3B)
+-  Occasionally overfits to “web app” or “JS-like” syntax  
+-  Produces slower completions  
+-  Practical and realistic coding style suitable for deployment  
+
+---
+
+##  Conclusion
 
 Each model offers unique trade-offs between **speed**, **accuracy**, **reasoning**, and **code complexity**.  
 After testing and evaluation:
 
-- 🧩 **DeepSeek-Coder (1.3B)** → Best for **fast, short, and syntactically accurate** code.  
-- 🧠 **Phi-2 (2.7B)** → Best for **reasoning-driven and explanation-rich** tasks.  
-- 💡 **Gemma-2B-IT** → Most **balanced** for generating and explaining code together.  
-- 🧮 **Stable-Code (3B)** → Ideal for **long, multi-function code generation**.  
-- 🧰 **Replit-Code (3B)** → Great for **real-world project-style outputs**.
+-  **DeepSeek-Coder (1.3B)** → Best for **fast, short, and syntactically accurate** code.  
+-  **Phi-2 (2.7B)** → Best for **reasoning-driven and explanation-rich** tasks.  
+-  **Gemma-2B-IT** → Most **balanced** for generating and explaining code together.  
+-  **Stable-Code (3B)** → Ideal for **long, multi-function code generation**.  
+-  **Replit-Code (3B)** → Great for **real-world project-style outputs**.
 
 ---
 
-### 🏁 Final Verdict
+###  Final Verdict
 
-> 💬 *No single model is universally best — the ideal choice depends on your task:*  
+>  *No single model is universally best — the ideal choice depends on your task:*  
 > - Choose **DeepSeek-Coder** for quick results  
 > - Choose **Phi-2** for strong logic and reasoning  
 > - Choose **Gemma-2B-IT** for teaching or learning tasks  
