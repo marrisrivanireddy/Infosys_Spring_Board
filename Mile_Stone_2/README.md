@@ -59,5 +59,8 @@ LAUNCHING THE UI
 
 <p align="center" style="vertical-align: top;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/s1.png" alt="Stable-Code Output" width="48%" height="300px" style="margin-right:15px; vertical-align: top; object-fit: contain;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/s2.png" alt="Stable-Code Accuracy" width="48%" height="300px" style="vertical-align: top; object-fit: contain;"> </p>
 
-## COMPAROSION OF MODELS
+## COMPAROSION OF MODELS - Overall Performance
+
+
+<p align="center" style="vertical-align: top;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/c1.png" alt="Model Comparison Graph 1" width="48%" height="300px" style="margin-right:15px; vertical-align: top; object-fit: contain;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/c2.png" alt="Model Comparison Graph 2" width="48%" height="300px" style="vertical-align: top; object-fit: contain;"> </p>
 
