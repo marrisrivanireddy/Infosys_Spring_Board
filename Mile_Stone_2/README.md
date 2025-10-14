@@ -66,3 +66,5 @@ LAUNCHING THE UI
 
 <p align="center" style="vertical-align: top;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/c1.png" alt="Model Comparison Graph 1" width="48%" height="300px" style="margin-right:15px; vertical-align: top; object-fit: contain;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/c2.png" alt="Model Comparison Graph 2" width="48%" height="300px" style="vertical-align: top; object-fit: contain;"> </p>
 
+### Model Evaluation — Ranking Based on Performance
+<p align="center"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/comp.png" alt="Model Ranking Graph" width="90%" height="400px" style="object-fit: contain; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"> </p>
