@@ -58,3 +58,6 @@ LAUNCHING THE UI
 ### Model 4 — Stable-Code-3B
 
 <p align="center" style="vertical-align: top;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/s1.png" alt="Stable-Code Output" width="48%" height="300px" style="margin-right:15px; vertical-align: top; object-fit: contain;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/s2.png" alt="Stable-Code Accuracy" width="48%" height="300px" style="vertical-align: top; object-fit: contain;"> </p>
+
+## COMPAROSION OF MODELS
+
