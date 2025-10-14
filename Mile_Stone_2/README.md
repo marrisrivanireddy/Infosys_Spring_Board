@@ -50,4 +50,4 @@ LAUNCHING THE UI
 ### Model 3 — Gemma-2B-IT (2B)
 <p align="center" style="vertical-align: top;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/g1.png" alt="Gemma-2B Output" width="48%" style="margin-right:15px; vertical-align: top;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/g2.png" alt="Gemma-2B Accuracy" width="48%" style="vertical-align: top;"> </p>
 
-
+<p align="center" style="vertical-align: top;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/s1.png" alt="Stable-Code Output" width="48%" height="300px" style="margin-right:15px; vertical-align: top; object-fit: contain;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/s2.png" alt="Stable-Code Accuracy" width="48%" height="300px" style="vertical-align: top; object-fit: contain;"> </p>
