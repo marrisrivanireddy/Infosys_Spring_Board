@@ -45,6 +45,6 @@ COMPAROSION OF MODELS
 LAUNCHING THE UI
 
 ### ⚡ Model 2 — Phi-2 (2.7B)
-<p align="center"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/phi-1.png" alt="Phi-1 Output" width="48%" style="margin-right:10px;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/phi-2.png" alt="Phi-2 Output" width="48%"> </p>
+<p align="center" style="vertical-align: top;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/phi-1.png" alt="Phi-1 Output" width="48%" style="margin-right:15px; vertical-align: top;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/phi-2.png" alt="Phi-2 Output" width="48%" style="vertical-align: top;"> </p>
 
 
