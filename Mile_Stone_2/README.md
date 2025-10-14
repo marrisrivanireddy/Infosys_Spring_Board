@@ -28,14 +28,19 @@ The system should:
 ##  Flow of the Process
 
 GPU CHECK AND ENVIRONMENTSETUP
+
 ↓  
 hugging face authentication
+
 ↓  
 INDIVIDUAL MODEL CHECK  
+
 ↓  
 EVALUATIONG THE LOGIC ACCURACY 
+
 ↓  
 COMPAROSION OF MODELS
+
 ↓  
 LAUNCHING THE UI
 
