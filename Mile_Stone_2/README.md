@@ -109,7 +109,7 @@ The objective is to **evaluate**, **compare**, and **visualize** the performance
 |:--|:--|:--|:--|:--|:--|
 | **Training Data** | Primarily GitHub code | Mixed code + text reasoning | Fine-tuned with instruction datasets | Long code sequences (Python, JS, C++) | Real-world dev data from Replit users |
 | **Output Style** | Compact, structured | Detailed, explanation-rich | Balanced between code & text | Long, optimized solutions | Practical, production-oriented |
-| **Response Speed** | ⚡ Very fast | ⚙️ Moderate | 🚀 Fast | 🕐 Slightly slow | ⚙️ Moderate |
+| **Response Speed** |  Very fast |  Moderate |  Fast |  Slightly slow |  Moderate |
 | **Accuracy on Syntax** | High | Medium | High | High | Medium |
 | **Language Diversity** | Python, C++, Java | Text + limited code | Python, JS, Java | Python, JS, Rust | Python, JS, Web stack |
 | **Explainability** | Limited comments | Very strong explanations | Balanced | Low | High clarity but less reasoning |
