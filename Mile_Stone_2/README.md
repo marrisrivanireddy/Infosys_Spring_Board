@@ -49,11 +49,11 @@ LAUNCHING THE UI
 ### Model 5 — Replit-Code-3B
 <p align="center" style="vertical-align: top;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/r1.png" alt="Replit-Code Output" width="48%" height="300px" style="margin-right:15px; vertical-align: top; object-fit: contain;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/r2.png" alt="Replit-Code Accuracy" width="48%" height="300px" style="vertical-align: top; object-fit: contain;"> </p>
 
-###  Model 2 — Phi-2 (2.7B)
-<p align="center" style="vertical-align: top;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/phi-1.png" alt="Phi-1 Output" width="48%" style="margin-right:15px; vertical-align: top;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/phi-2.png" alt="Phi-2 Output" width="48%" style="vertical-align: top;"> </p> 
+### Model 2 — Phi-2 (2.7B)
+<p align="center" style="vertical-align: top;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/phi-1.png" alt="Phi-1 Output" width="48%" height="300px" style="margin-right:15px; vertical-align: top; object-fit: contain;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/phi-2.png" alt="Phi-2 Output" width="48%" height="300px" style="vertical-align: top; object-fit: contain;"> </p>
 
 ### Model 3 — Gemma-2B-IT (2B)
-<p align="center" style="vertical-align: top;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/g1.png" alt="Gemma-2B Output" width="48%" style="margin-right:15px; vertical-align: top;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/g2.png" alt="Gemma-2B Accuracy" width="48%" style="vertical-align: top;"> </p>
+<p align="center" style="vertical-align: top;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/g1.png" alt="Gemma-2B Output" width="48%" height="300px" style="margin-right:15px; vertical-align: top; object-fit: contain;"> <img src="https://github.com/marrisrivanireddy/Infosys_Spring_Board/blob/main/Mile_Stone_2/g2.png" alt="Gemma-2B Accuracy" width="48%" height="300px" style="vertical-align: top; object-fit: contain;"> </p>
 
 ### Model 4 — Stable-Code-3B
 
